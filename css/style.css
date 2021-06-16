@@ -1,10 +1,57 @@
-body {
+body, html {
     font-family: 'Lato', sans-serif;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    /* background-attachment:fixed; */
 }
-.jumbotron{
-    background-image: url('../images/random.jpg');
-    background-size: cover;
-    
+.navbar {
 
+    position: sticky;
+    top: 0;
+}
+
+#img1{
+    background-image: url("../images/plane.jpg");
+    background-size: cover;
+    background-position: center;
+    color: black;
+    min-height: 65vh;
+    background-attachment: fixed;
+    opacity: ,5;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    align-items: center;
+} 
+
+#img2 {
+
+    align-items: center;
+    color: white;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif; 
+    background-image: url("../images/panoramic.jpg");
+}
+#img3 {
+    align-items: center;
+    color: white;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif; 
+    background-image: url("../images/map.jpeg")
+}
+.middleAlign{
+    text-align: center;
+    padding: 10%;
+    margin: 15%;
+}
+
+.background{
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
 }
 
